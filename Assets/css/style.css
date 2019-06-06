@@ -1,0 +1,259 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.aboutme {
+    color: black;
+    font-size: 35px;
+    font-family: 'Mirza', cursive;
+    margin-left: 90vh;
+    margin-top: 4%;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.navbar-nav {
+    list-style-type: none;
+    margin-left: 125vh;
+}
+
+.nav-item {
+
+    padding: 10px;
+}
+.nav-link {
+    font-weight: 600;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px 2px;
+    padding: 5px 12px;
+}
+
+.nav-link:hover {
+    color: black;
+    background: white;
+}
+
+.personal {
+    background: #f2f3f9;
+}
+
+.list {
+    font-size: 20px;
+    font-family: 'Yeon Sung', cursive;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.mythoughts {
+    font-size: 25px;
+    font-family: "harmatan", cursive;
+    font-weight: bold;
+    color: #000496;
+}
+
+.thoughts {
+    font-size: 17px;
+    word-spacing: 6px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+
+.parallax {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.5)),
+        url(../img/banner2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#profile-txt {
+    color: white;
+    margin-left: 60vh;
+
+}
+
+.progress {
+    border-radius: 5px;
+    margin-bottom: 5.5em;
+}
+
+.progress-bar {
+    background-color: #00a3f5;
+    border-radius: 5px;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    border-radius: 20px;
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    border-radius: 20px;
+}
+
+.card3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 250px;
+    border-radius: 20px;
+}
+
+.study {
+    margin-top: 5.2%;
+    margin-left: 12%;
+}
+
+.educat {
+    margin-top: 5%;
+    font-family: 'Mirza', cursive;
+    font-size: 35px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 15px 2px;
+}
+
+.card1: hover {
+    background: cornflowerblue;
+}
+
+.skill {
+    font-family: 'Mirza', cursive;
+    font-size: 35px;
+    margin-top: 15vh;
+
+}
+
+.my-info h3,
+h6 {
+    line-height: 1.9;
+}
+
+.contact {
+    font-family: 'Mirza', cursive;
+    font-size: 35px;
+    margin-top: 10vh;
+}
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+div.social-icon:first-child {
+    display: inline-block;
+    margin: 1% 3% 1% 0;
+}
+
+div.social-icon:not(:first-child) {
+    display: inline-block;
+    margin: 1% 3%;
+}
+
+div.social-icon button {
+    width: 50px;
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+    font-size: 20px;
+    padding: 10% 10%;
+    border-radius: 7px;
+}
+
+div.social-icon button:hover {
+    color: #000;
+    background: #fff;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+}
+
+footer p {
+
+    padding: 1%;
+}
+
+footer h6 {
+    top: 10px !important;
+}
+
+.go-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: 2px solid black;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: white;
+    transition: 0.5s ease-out;
+}
+
+.go-to-top i {
+    color: black;
+    font-size: 40px;
+    margin-top: -8px;
+    transition: 0.5s ease-out;
+}
+
+.go-to-top:hover {
+    background: black;
+    transition: 0.5s ease-in;
+}
+
+.go-to-top i:hover {
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+@media screen and (max-width : 767px) {
+    .fa-bars {
+        float: right;
+    }
+    .navbar-nav{
+        margin-left:0;
+    }
+    .progress{
+        margin-bottom: 0;
+    }
+    .study{
+        margin-top: 6%;
+    }
+    .nav-link{
+        text-align: center;
+    } 
+}
