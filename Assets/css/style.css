@@ -44,9 +44,8 @@ body {
 
 .list {
     font-size: 20px;
-    font-family: 'Yeon Sung', cursive;
-    word-spacing: 5px;
-    letter-spacing: 2px;
+    font-family: monospace;
+    
 }
 
 .mythoughts {
@@ -121,7 +120,16 @@ body {
     font-family: 'Mirza', cursive;
     font-size: 35px;
 }
-
+.about-button{
+    background-color: #9e9e9e75;
+    margin-top: 10%;
+    width: 10%;
+    margin-left: 46%;
+    padding: 10px;
+    border-radius: 5px 2px;
+    outline: 0px;
+    text-decoration: none;
+}
 button {
     border: none;
     outline: 0;
@@ -136,7 +144,7 @@ button {
     border-radius: 15px 2px;
 }
 
-.card1: hover {
+.card1:hover {
     background: cornflowerblue;
 }
 
@@ -258,4 +266,5 @@ footer h6 {
     } 
     .aboutme{
         margin-left:0;
+}
 }
